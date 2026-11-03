@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AEGIS Island Medical | Sovereign Medical Sanctuary</title>
+    <meta name="description" content="AEGIS Island Medical is an ultra-exclusive sovereign offshore medical enclave specializing in regenerative longevity, cellular epigenetics, and royal clinical seclusion." />
+    <meta property="og:title" content="AEGIS Island Medical | Sovereign Medical Sanctuary" />
+    <meta property="og:description" content="Ultra-luxury sovereign medical sanctuary, secluded offshore clinical protocols, and sovereign longevity medicine." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    
+    <!-- Google Fonts for Sovereign Ultra-Luxury Aesthetic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@300;400;500;600&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS (via single standard CDN link per Strict Zero-Framework Mandate) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              gold: {
+                DEFAULT: '#c5a059',
+                light: '#dfc282',
+                dark: '#8c6d32'
+              },
+              obsidian: {
+                DEFAULT: '#070709',
+                card: '#0c0c14',
+                surface: '#11111a'
+              }
+            },
+            fontFamily: {
+              serif: ['Cinzel', 'Georgia', 'serif'],
+              mono: ['JetBrains Mono', 'monospace'],
+              sans: ['Plus Jakarta Sans', '-apple-system', 'BlinkMacSystemFont', 'sans-serif']
+            }
+          }
+        }
+      }
+    </script>
+
+    <!-- GSAP & ScrollTrigger (via CDN for smooth visual animations) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+
+    <style>
+      body {
+        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        background-color: #070709;
+        color: #e2e2e8;
+        overflow-x: hidden;
+      }
+      h1, h2, h3, h4, .font-serif-luxury {
+        font-family: 'Cinzel', Georgia, serif;
+        letter-spacing: 0.05em;
+      }
+      .font-mono-telemetry {
+        font-family: 'JetBrains Mono', monospace;
+      }
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #08080a;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #1f1f28;
+        border-radius: 3px;
+        border: 1px solid #2a2a38;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #c5a059;
+      }
+      .gold-gradient-text {
+        background: linear-gradient(135deg, #f7e7c4 0%, #c5a059 50%, #8c6b2d 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+    </style>
+  </head>
+  <body class="bg-[#070709] text-[#e2e2e8] antialiased selection:bg-[#c5a059]/40 selection:text-[#faebd7] min-h-screen flex flex-col justify-between">
+    <div id="app" class="flex-1 flex flex-col justify-between min-h-screen"></div>
+
+    <!-- Pure Native Vanilla JavaScript ES6+ Core Engine -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

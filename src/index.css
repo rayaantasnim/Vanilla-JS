@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-gold: #c5a059;
+    --color-gold-light: #dfc282;
+    --color-gold-dark: #8c6d32;
+    --color-bg-dark: #08080a;
+    --color-surface-dark: #0e0e12;
+    --color-border-dark: #1f1f26;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #070709;
+    color: #e2e2e8;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-serif-luxury {
+    font-family: 'Cinzel', Georgia, serif;
+    letter-spacing: 0.05em;
+  }
+
+  .font-mono-telemetry {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #08080a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1f1f28;
+  border-radius: 3px;
+  border: 1px solid #2a2a38;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c5a059;
+}
+
+/* Luxury Accents */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #f7e7c4 0%, #c5a059 50%, #8c6b2d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border {
+  border-color: rgba(197, 160, 89, 0.25);
+}
+
+.gold-glow {
+  box-shadow: 0 0 25px rgba(197, 160, 89, 0.12);
+}
+
+.gold-glow-lg {
+  box-shadow: 0 0 45px rgba(197, 160, 89, 0.2);
+}
+
+.obsidian-card {
+  background: linear-gradient(180deg, rgba(20, 20, 26, 0.75) 0%, rgba(12, 12, 16, 0.85) 100%);
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  backdrop-filter: blur(16px);
+}
+
+.obsidian-card-hover {
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.obsidian-card-hover:hover {
+  border-color: rgba(197, 160, 89, 0.4);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6), 0 0 20px rgba(197, 160, 89, 0.1);
+  transform: translateY(-2px);
+}

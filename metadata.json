@@ -1,0 +1,6 @@
+{
+  "name": "Workspace",
+  "description": "Repository import workspace ready for your instructions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
